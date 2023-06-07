@@ -1,0 +1,50 @@
+.photos:hover{
+    box-shadow: 5px 5px 20px grey;
+}
+ .photo{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width:260px;
+    height:335px;
+    cursor: pointer;
+    
+}
+ .card-content{
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+ .btn-theme{
+    border-radius: 5px;
+    border: none;
+    padding: 5px 10px;
+    color: white;
+    background-color: rgb(255, 102, 0);
+    border-color:rgb(255, 102, 0);
+    outline: none;
+}
+.btn-theme:hover{
+background-color: brown;
+}
+
+.column{
+    float: left;
+  width: 22%;
+  padding: 0 10px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.navbar{
+    background-color:  brown;
+  
+}
+.navbar-brand{
+background-color:rgb(255, 102, 0);
+margin-left: 15px;
+padding: 5px;
+}
+.nav-item:hover{
+background-color:rgb(255, 102, 0);
+cursor: pointer;
+}

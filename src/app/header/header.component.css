@@ -1,0 +1,61 @@
+.header {
+    background: linear-gradient(68.1deg, rgb(255, 200, 69) -0.3%, rgb(239, 69, 115) 100.2%);
+    padding:0 20px;
+    height: 100px;
+    position: sticky;
+    top:0;
+    z-index: 99;
+    }
+    
+    .head-logo{
+    width:100px;
+    cursor: pointer;
+    padding: 10px;
+    }
+
+    .btn-theme{
+        border-radius: 5px;
+        border: none;
+        padding: 5px 10px;
+        color: white;
+        background-color: rgb(255, 102, 0);
+        border-color: rgb(255, 102, 0);
+        outline: none;
+        }
+        .head-right-item {
+        margin-left: auto;
+        display:flex;
+        align-items: center;
+
+        }
+
+        .head-right-item:hover{
+              background-color: coral;
+              padding: 5px;
+              border-radius: 10px;
+              border: 1px solid brown;
+        }
+        .cart{
+        position:relative;
+        cursor: pointer;
+        outline: none;
+        }
+
+        .cart-image{
+            width: 45px;
+    }
+
+    .log{
+       
+        margin-left: 750px;
+        display:flex;
+        align-items: center;
+    }
+        
+
+    .srcbar{
+           width: 500px;
+           height: 50px;
+           margin-left: 100px;
+           
+    }

@@ -1,0 +1,25 @@
+
+<header>
+    <div class="header d-flex align-items-center">
+        <a routerLink="/home"><img class="head-logo" src="assets/logo1.png"></a>
+        <form class="srcbar" #searchBox="ngForm">
+            <div class="header-search ms-3 d-flex align-items-center">
+                <input type="text" class="form-control" [(ngModel)]="searchTerm" (keyup)="search($event)" placeholder="search products">
+                <button type="button" class="btn btn-primary">
+                    <i class="fas fa-search"></i>
+                  </button>
+            </div>
+            </form>
+           <div class="log">
+            <a   routerLink="/" class="text-white " style="text-decoration: none;"><h4 >logout</h4></a>
+              
+           </div>
+            <div class="head-right-item">
+                <button   routerLink="cart" class="btn ">
+                    <i style="font-size: 30px; color: aliceblue;" class="fas fa-cart-plus"></i>
+                    <div style="font-size: 10px;" class="badge bg-danger">{{totalItem}}</div>
+                </button>
+            </div>
+            </div>
+       
+</header>
